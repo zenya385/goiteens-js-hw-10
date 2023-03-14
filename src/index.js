@@ -1,5 +1,5 @@
-import * as hmWork08 from "./js/hw-08";
-import * as hmWork09 from "./js/hw-09";
+import * as hmWork08 from "./js/hw-08.js";
+import * as hmWork09 from "./js/hw-09.js";
 
 //!=================================hw-08====================================================
 hmWork08.increment.addEventListener('click', hmWork08.plusOne);

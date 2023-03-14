@@ -17,7 +17,7 @@ export function getRandomHexColor() {
 }
 
 export const changeColorOnClick = () => {
-    color = getRandomHexColor();
+    const color = getRandomHexColor();
     span.textContent = color;
     document.body.style.backgroundColor = color;
     divWidget.style.backgroundColor = '#FFFFFF';

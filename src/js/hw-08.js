@@ -9,13 +9,11 @@ export const plusOne = () => {
     counterValue += 1;
     counterInput.textContent = counterValue;
 }
-increment.addEventListener('click', plusOne);
 
 export const minusOne = () => {
     counterValue -= 1;
     counterInput.textContent = counterValue;
 }
-decrement.addEventListener('click', minusOne);
 
 //! Завдання 2 ===================================
 export const inputText = document.querySelector('#name-input');
@@ -27,6 +25,3 @@ export const setOutput = (event) => {
         outputText.textContent = 'Anonymous';
     }
 }
-inputText.addEventListener("input", setOutput);
-
-

@@ -34,5 +34,3 @@ export const changeListenerBtn = () => {
         btnChangeColor.removeEventListener('click', changeColorOnClick);
     }
 }
-
-toggle.addEventListener('click', changeListenerBtn);

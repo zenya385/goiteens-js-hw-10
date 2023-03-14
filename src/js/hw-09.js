@@ -1,22 +1,22 @@
 // Напиши скрипт, який змінює кольори фону елемента <body> 
 // через інлайн-стиль по кліку на button.change-color
 // і виводить значення кольору в span.color.
-const span = document.querySelector(".color")
-const btnChangeColor = document.querySelector(".change-color")
-const divWidget = document.querySelector(".widget");
+export const span = document.querySelector(".color")
+export const btnChangeColor = document.querySelector(".change-color")
+export const divWidget = document.querySelector(".widget");
 
 if (document.body.style.backgroundColor = '#FFFFFF') {
     divWidget.style.backgroundColor = '#D9D9D9';
     btnChangeColor.style.backgroundColor = '#FFFFFF';
 }
 
-function getRandomHexColor() {
+export function getRandomHexColor() {
     return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
     .padStart(6, 0)}`;
 }
 
-const changeColorOnClick = () => {
+export const changeColorOnClick = () => {
     color = getRandomHexColor();
     span.textContent = color;
     document.body.style.backgroundColor = color;
@@ -25,9 +25,9 @@ const changeColorOnClick = () => {
 }
 
 //!pill ===============================================================
-const toggle = document.querySelector('#pill3');
+export const toggle = document.querySelector('#pill3');
 
-const changeListenerBtn = () => {
+export const changeListenerBtn = () => {
     if(toggle.checked){
         btnChangeColor.addEventListener('click', changeColorOnClick);
     } else{
@@ -36,5 +36,3 @@ const changeListenerBtn = () => {
 }
 
 toggle.addEventListener('click', changeListenerBtn);
-
-export {getRandomHexColor, changeColorOnClick, changeListenerBtn }

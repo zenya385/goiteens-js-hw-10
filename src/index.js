@@ -1,10 +1,10 @@
-import {plusOne, minusOne, setOutput} from "./js/hw-08";
-import {changeListenerBtn} from "./js/hw-09";
+import * as hmWork08 from "./js/hw-08";
+import * as hmWork09 from "./js/hw-09";
 
 //!=================================hw-08====================================================
-increment.addEventListener('click', plusOne);
-decrement.addEventListener('click', minusOne);
-inputText.addEventListener("input", setOutput);
+hmWork08.increment.addEventListener('click', hmWork08plusOne);
+hmWork08.decrement.addEventListener('click', hmWork08.minusOne);
+hmWork08.inputText.addEventListener("input", hmWork08.setOutput);
 
 //!=================================hw-09====================================================
-toggle.addEventListener('click', changeListenerBtn);
+hmWork09.toggle.addEventListener('click', hmWork09.changeListenerBtn);

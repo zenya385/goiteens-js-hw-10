@@ -2,7 +2,7 @@ import * as hmWork08 from "./js/hw-08";
 import * as hmWork09 from "./js/hw-09";
 
 //!=================================hw-08====================================================
-hmWork08.increment.addEventListener('click', hmWork08plusOne);
+hmWork08.increment.addEventListener('click', hmWork08.plusOne);
 hmWork08.decrement.addEventListener('click', hmWork08.minusOne);
 hmWork08.inputText.addEventListener("input", hmWork08.setOutput);
 

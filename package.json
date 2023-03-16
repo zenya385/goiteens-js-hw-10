@@ -2,7 +2,7 @@
   "name": "goiteens-js-hw-10",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/xrsQugi/goiteens-js-hw-10.git",
+  "homepage": "https://xrsQugi.github.io/goiteens-js-hw-10.git",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goiteens-js-hw-10.git/"

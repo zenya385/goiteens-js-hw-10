@@ -53,7 +53,7 @@ Pages, у гілку `gh-pages`, щоразу коли оновлюється г
 "scripts": {
    "build": "parcel build src/*.html --public-url /your_repo_name/"
 },
-````
+``
 
 Далі необхідно зайти в налаштування GitHub-репозиторія (`Settings` > `Pages`) та
 виставити роздачу продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо

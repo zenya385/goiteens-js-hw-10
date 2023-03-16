@@ -1,6 +1,0 @@
-!function(){var e=document.querySelector("#value"),t=0,n=document.querySelector('[data-action="decrement"]'),o=document.querySelector('[data-action="increment"]'),c=document.querySelector("#name-input"),r=document.querySelector("#name-output"),u=document.querySelector(".color"),d=document.querySelector(".change-color"),l=document.querySelector(".widget");document.body.style.backgroundColor="#FFFFFF",l.style.backgroundColor="#D9D9D9",d.style.backgroundColor="#FFFFFF";var a=function(){var e="#".concat(Math.floor(16777215*Math.random()).toString(16).padStart(6,0));u.textContent=e,document.body.style.backgroundColor=e,l.style.backgroundColor="#FFFFFF",d.style.backgroundColor="#D9D9D9"},i=document.querySelector("#pill3");
-//!=================================hw-08====================================================
-o.addEventListener("click",(function(){t+=1,e.textContent=t})),n.addEventListener("click",(function(){t-=1,e.textContent=t})),c.addEventListener("input",(function(e){r.textContent=e.currentTarget.value,""===r.textContent.trim()&&(r.textContent="Anonymous")})),
-//!=================================hw-09====================================================
-i.addEventListener("click",(function(){i.checked?d.addEventListener("click",a):d.removeEventListener("click",a)}))}();
-//# sourceMappingURL=index.629c6d0b.js.map
